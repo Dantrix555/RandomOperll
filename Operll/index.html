@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <style> body {padding: 0; margin: 0;} 
+    input {
+    display: inline-block;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 300px;} 
+    </style>
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+  </head>
+  <body>
+    <h2>Selecciona una imagen con la que desees experimentar</h2>
+    <br>
+    <input onclick="ChangeImage(1)" type="image" src="Images/Chavez.jpg">
+    <input onclick="ChangeImage(2)" type="image" src="Images/Link.jpg">
+    <input onclick="ChangeImage(3)" type="image" src="Images/ZX.jpg">
+    <br>
+    <br>
+    <script src="sketch.js"></script>
+  </body>
+</html>
